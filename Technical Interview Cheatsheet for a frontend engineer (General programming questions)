@@ -1,0 +1,157 @@
+Technical Interview Cheatsheet for a frontend engineer (General programming questions)
+
+
+There’s many trendy tech words but you might feel too embarrassed😛 to ask… so here’s a MUST-KNOW list of words to stay in the game.
+
+Interviewers may not ask you to explain these words specifically, but it will impress 🤓 the them if you use these vocabulary in your conversation!
+
+Hope it helps you remind some words! Give some clap and comments if you liked! 👏
+
+1. What is object-oriented programming & functional programming?
+Object-oriented programming:
+
+A programming concept of “objects”, which is about writing objects that have both functions and data which are mutable.
+
+4 pillars of OOP:
+
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
+Examples: Java, JavaScript, Python, C++, Visual Basic .NET, Ruby, Scala, PHP
+
+Functional Programming:
+
+FP attempts to avoid changing state and mutable data. Outputs and inputs should always be the same. FP depends purely on the arguments for the output which eliminates side effects in your code.
+
+Examples: Lisp, Clojure, Wolfram, Erlang, Haskell, F#, R
+
+2. What is the difference between imperative and declarative programming?
+Imperative programming(How-to / step-by-step)
+
+Code that explains to the compiler what you want to happen, step by step
+
+Declarative programming(What / just conclusion)
+
+Code that describes what you want straightforwardly, but not necessarily how to get it
+
+3. What’s the difference between HTTP and HTTPS?
+HTTP(hypertext transfer protocol) has no data encryption incremented and HTTPS(http-Secure) HAS.
+
+Both enables requested web data to be presented on your screen.
+
+But http is a “a stateless system”, which means that it enables connection on demand which can be intercepted and potentially altered.
+
+And https is powered by Transport Layer Security (TLS) and establishes an encrypted connection between a web server and a browser
+
+TLS also authenticates the server you are connecting to and protects that transmitted data from tampering.
+
+4. What is SSL?
+Both is a technology that establishes an encrypted connection between a web server and a browser. SSL(Secure Socket Layer) was the old version of TLS but some people still refer the whole concept as SSL.
+
+The Certificate Authorities (CAs) will use the data from the CSR(Certificate Signing Request) to build your SSL Certificate.
+
+The public key that will be included in the certificate. SSL uses public-key, or asymmetric, cryptography to encrypt transmitted data during an SSL session. The public key is used to encrypt and the corresponding private key is used to decrypt.
+
+Certificate Authorities (CAs) can issue SSL certificates.
+
+Ref: https://www.globalsign.com/en/blog/guide-to-choosing-an-ssl-certificate
+
+5. How to check your speed?
+Google’s PageSpeed Insighs
+
+Chrome DevTools offers powerful performance measurement for JavaScript applications. Learn how to read and understand performance profiles.
+
+6. Tell at least 3 ways to decrease page load (optimization)
+Minimize HTTP requests (can check how many requests in the network tab)
+2. Minify and combine files (css, HTML, js)
+
+3. Code-splitting (with webpack + react): splits code so they can be dynamically loaded
+
+4. Check LightHouse Score and see what needs to be optimized.
+
+7. Why is it important to decrease page load?
+8. What is a VPS?
+VPS (Virtual Private Servers) is a website hosting environment that allows for resources such as RAM and CPU to be dedicated to your account. This is achieved by virtualizing a Dedicated server and splitting the resources amongst the users on that server.
+
+9. What is the difference between Shared vs VPS Hosting?
+Users of Shared hosting all share the resources on the server their websites are on. There is no guarantee of RAM or CPU with Shared hosting. Shared hosting also does not provide full root access to the server, as opposed to VPS package where users are given full root access to perform commands and make configuration changes to their hosting environment.
+
+10. What is a progressive web app
+Progressive Web Apps are web apps that use emerging web browser APIs and features along with traditional progressive enhancement strategy to bring a native app-like user experience to cross-platform web application.
+
+They are web application that can be “installed” on your system. It works offline when you don’t have an internet connection, leveraging data cached during your last interactions with the app
+
+https://www.thatjsdude.com/interview/index.html
+11. How do you handle data requests?
+with fetch, axios or useSWR(new)
+
+12. What is CORS?
+Cross-Origin Resource Sharing (CORS) a mechanism for the server to restrict or allow any other origins(domain, scheme, port) from accessing resources. We can add code in the HTTP headers to control those restrictions for security purposes.
+
+13. What is serverless architecture?
+17. How do you handle testing?
+Storybook for UI testing and Jest and Enzyme for Unit tests.
+
+Jest+Enzyme =>shallow rendering + snapshot testing let us spot wrongly rendered UI or wrongly passed data.
+
+18. What is continuous integration?
+
+19. What is Saas?
+
+20. What is functional and non-functional testing? source
+
+Functional testing: testing the application against the business requirements. It incorporates all test types designed to guarantee each part of a piece of software behaves as expected by using uses cases provided by the design team or business analyst. These testing methods are usually conducted in order and include:
+
+-Unit testing
+-Integration testing
+-System testing
+-Acceptance testing
+
+
+Non-functional testing: methods incorporate all test types focused on the operational aspects of a piece of software. These include:
+
+-Performance testing
+-Security testing
+-Usability testing
+-Compatibility testing
+
+
+20. What is a good approach for testing in the frontend?
+
+The testing trophy, introduced by Kent C. Dodds is getting popular for the frontend tests:
+
+-Static analysis catches syntax errors, bad practices and incorrect use of APIs: — Code formatters, like Prettier; — Linters, like ESLint; — Type checkers, like TypeScript and Flow.
+
+-Unit tests verify that tricky algorithms work correctly. Tools: Jest.
+
+-Integration tests give you confidence that all features of your app work as expected. Tools: Jest and Enzyme or react-testing-library.
+
+-End-to-end tests make sure that your app work as a whole: the frontend and the backend and the database and everything else. Tools: Cypress.
+
+
+20. What is unit testing, UI testing, A/B testing?
+
+A/B testing is the practice of comparing two versions of online content — websites, apps, marketing emails, etc. — in order to see which version performs better. The two versions (A and B) are presented to users at random in order to gauge reactions.
+
+21. What is SSR and CSR?
+
+22. What does typesafe mean and what are some programs that are type safe?
+
+23. What is atomic design?
+
+24. What are cloud services and
+
+25. What is TDD(Test-driven-development)
+An approach to software development where you write unit tests along with the application code.
+
+26. List out different ways to integrate css
+
+styled-components, css modules, sass and UI Libraries (bootstrap, material UI, tailwind css, and etc…)
+
+27. Explain what a CRUD is.
+
+Create, Read, Update, Delete
+
+
+28. What is the difference between patch and update in REST?

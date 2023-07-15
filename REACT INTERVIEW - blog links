@@ -1,0 +1,80 @@
+https://www.freecodecamp.org/news/author/reed
+
+https://www.youtube.com/watch?v=SVvr3ZjtjI8 - neetcode
+https://www.youtube.com/watch?v=aa2ijyWBBIc - neetcode
+
+https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/
+
+https://medium.com/@viveksinra/nodejs-interview-questions-asked-to-me-with-answers-8553688db9f
+
+https://medium.com/@ayakosayama/technical-interview-cheatsheet-for-a-frontend-engineer-general-programming-questions-eee41b6e2c86
+
+https://javascript.plainenglish.io/5-react-design-patterns-you-should-know-629030e2e2c7
+https://asimzaidi.medium.com/how-senior-engineers-build-react-apps-eeb75769ce08
+
+
+https://www.freecodecamp.org/news/react-interview-questions-to-know/?fbclid=IwAR2DrEUeeEfGnz_QEPyzvVrw_Ks7bnA7mMaF2dcbkUe_swW6mBKqh1WjGS0
+https://dev.to/frontendengineer/10-reactjs-coding-exercises-with-codepen-exercise-and-solution--22k7
+https://dev.to/lico/react-18-new-hooks-for-concurrent-1gch?fbclid=IwAR2juMp11-WWzUi07Y2gnwYz-bL9lG047S3fT0fMgWkqnvzZZ9bmUnqTa74
+https://dev.to/nourdinedev/react-best-practices-ways-to-write-better-code-in-2022-37gk?fbclid=IwAR2Ulm4q83B8YEZjMNoN0mKkj_ul8zi7ELZvienNg4H2bHcp0aqmK0KYnUc
+https://kentcdodds.com/blog/understanding-reacts-key-prop
+
+
+react coding interview blog - https://medium.com/@justin.sherman
+https://medium.com/@saikiran-dev/react-interview-questions-that-i-came-across-in-2022-25e26efefeee
+
+=REACT CONCEPTS
+https://medium.com/@bansal.suneet/react-architecture-best-practices-31102b78c038
+
+https://github.com/reactwg/react-18/discussions/46
+
+https://felixgerschau.com/react-rerender-components/
+
+
+https://felixgerschau.com/react-component-composition/#:~:text=Conclusion-,What%20is%20component%20composition%20in%20React%3F,new%20components%20with%20other%20components.
+
+=web dev simp hooks course
+
+https://courses.webdevsimplified.com/react-hooks-simplified
+
+
+==react hook origins and custom hooks
+
+https://medium.com/@waterfish/as-a-react-developer-these-hooks-you-must-know-about-39d6f9c79bb1
+
+https://thoughtbot.com/blog/custom-react-hooks
+
+=== HYDRATION IN REACT
+
+https://medium.com/@gautamkiran123/hydration-in-react-8e8dff384f93
+
+
+==React hooks origin and uses
+
+https://medium.com/@waterfish/as-a-react-developer-these-hooks-you-must-know-about-39d6f9c79bb1
+
+https://thoughtbot.com/blog/custom-react-hooks
+
+
+function useStateWithPrevious(initialValue) => {
+  const reducer = (state, value) => ({
+    value,
+    previousValue: state.value,
+  });
+
+  const [{ value, previousValue }, setValue] = useReducer(reducer, {
+    value: initialValue,
+  });
+
+  return [value, previousValue, setValue];
+};
+
+
+=== NEXT JS
+
+https://medium.com/@niazmorshed2007/component-patterns-in-next-js-13-b6439dc6324a
+
+
+=== JAVASCRIPT
+
+https://medium.com/coding-beauty/javascript-one-liners-3fe0b0155311

@@ -1,0 +1,20 @@
+#6 LINEAR SEARCH
+
+// -problem: given a sorted array of numbers and a target number, find index of target number in the array. using binary search
+// return -1 if number is not found
+
+-problem: given an array of numbers and a target number, find index of target number in the array.
+	  return -1 if number is not found 
+
+function linearSearch(arr, t) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === t) {
+      return i;
+    }
+  }
+
+  return -1;
+}
+
+
+-> O(n)

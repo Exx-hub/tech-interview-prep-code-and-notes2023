@@ -1,0 +1,85 @@
+Why Experienced Programmers Fail Coding Interviews
+A friend of mine recently joined a FAANG company as an engineering manager, and found themselves in the position of recruiting for engineering candidates.
+
+We caught up.
+
+“Well,” I laughed when they inquired about the possibility of me joining the team, “I’m not sure I’ll pass the interviews, but of course I’d love to work with you again! I’ll think about it.”
+
+“That’s the same thing X and Y both said,” they told me, referring to other engineers we had worked with together. “They both said they weren’t qualified.”
+
+I nodded in understanding, but a part of my mind was also wincing. Those other engineers my friend referred to were solid senior engineers — great communicators, collaborators, and great at solving technical problems. We both knew this, since we had all worked together for almost two years.
+
+But could they pass the interview bar for the company my friend had recently joined? The outcome could be a coin toss. “Well,” my friend allowed, “my advice would be to do a little practice first. Get some interviews in at other companies, too; don’t go in cold.”
+
+And such is the reality of an experienced programmer looking to find a new job.
+
+Why do experienced programmers fail at interviews? Here are my musings.
+
+
+1. The experienced programmer never even applies to the company.
+Having interest in working at a particular company — but never applying — is probably the most common reason an experienced programmer doesn’t land a new job.
+
+Coding challenges can be difficult, and each company has a slightly different interview process.
+
+You need to spend time preparing — which includes:
+
+-updating your resume
+
+-practicing data structures and algorithms for the coding challenges
+
+-practicing for the system design round
+
+-researching the company to demonstrate product interest
+
+-spending hours on any take-home assignments (not all companies offer this; some give you a choice between a take-home and a live coding round)
+
+-coming up with concise stories (think: STAR method!) that you can recount for the behavioral questions that probe at what you would be like to work with as a teammate, and whether you exemplify the company values that would make you a “cultural fit” for the organization you’d be joining.
+
+
+Oftentimes, the preparation itself can feel overwhelming. I’m not ready, an experienced programmer might think, after barely having any time to get through any Leetcode problems.
+
+People have family, lives outside of work, and spending two hours an evening for a few weeks studying up on a course (data structures and algorithms) freshest in the minds of newly graduated Computer Science majors is not compelling.
+
+Besides not having time to prepare, the fear of failure is another reason experienced programmers don’t apply.
+
+“I’m not a good enough software engineer to get into Google,” someone might say, despite being fully competent otherwise.
+
+Or the prospect of being judged for multiple rounds by a panel of peers is in itself daunting. “I don’t have time to prepare, and I don’t want to appear like a fool,” might be the thought.
+
+The experienced programmer has been successful at their current company, gotten promoted, etc. and achieved a certain level of respect amongst their peers. What if they fail the first coding round at a comparable company, because the engineer interviewing them picked a tough question and didn’t like the way they attempted to solve it?
+
+This happens quite often, even to experienced programmers who were referred to the company by a former manager or engineering colleague who could vouch for their skills.
+
+But such is the process. Once a candidate fails an early round (the recruiter chat, the hiring manager chat, or a first coding challenge), they don’t pass onto the on-site, which is typically a “final” 4–6 hour long marathon of even more coding, system design, and behavioral challenges to pass.
+
+This fear of being judged, and — by virtue of luck with a bad interviewer, unfamiliar question, or lack of preparedness — failing an interview — often results in the experienced programmer not applying to the company at all.
+
+2. The interviews are subjective
+People are biased, unfortunately. I’ve been shocked at the minimum (and varied) level of preparation many companies give to their interviewers.
+
+Oftentimes, interviewers might see a candidate’s resume, and form a subconscious bias based on the content on that piece of paper.
+
+Next, even if interviewers have the option of choosing from a standard spread of interview questions, the question they pick may very well range in difficulty, and whether or not a candidate passes a particular round may very well depend on luck.
+
+Finally, how strict an interviewer grades a candidate will vary. Will they drop hints? Are they feeling particularly grumpy that hour, and try to grade the candidate more harshly than they would otherwise? Is there a communication problem — wherein an accent from one of the two parties gets in the way, and they have trouble understanding each other? Did they notice that the candidate made a beginner-level coding mistake due to nerves— and mark it against them?
+
+I’ve seen the egregiousness of the subjectivity of interviews in the case of friends who’ve received senior or staff-level offers north of $400K in total compensation from various companies, but gotten rejected in the first or final rounds from overzealous interviewers at other, not-too-different companies.
+
+Were the interviewers overzealous? Perhaps. Or perhaps they also asked the wrong questions. And the candidate was stressed and tired. And a combination of these subjective triggers led to a “no”.
+
+Why I support experienced programmers applying anyway (but understand if they don’t)
+Moving jobs is probably the most straightforward to get a signficant salary increase, unfortunately. Historically, an employee who has stayed (and been promoted) at a company over the course of five years might often be paid less than a new employee entering at the same level, who was able to negotiate against the newer market rates or be in a better negotiating position because they had other offers.
+
+Rejection is difficult to swallow, but I’ve personally often been surprised by how well (or poorly) I’ve performed at the places I’ve applied once I gathered up the courage to do so.
+
+Some companies I applied to for practice — thinking the interviews would be easier — have been tough.
+
+And some companies I thought would be a reach to get an offer from — thinking the interviews would be tough — I ended getting offers from.
+
+In other words, it really was like a coin toss!
+
+Generally speaking though, the more interviews I tried out, the better I did get at interviewing.
+
+I wouldn’t recommend overdoing it since the whole process is exhausting. But if you’re an experienced programmer who’s been at a company for too long and thinking of switching jobs for whatever reason, I would encourage you to apply.
+
+Note 11/5/22: I didn’t expect this post to get so many views when I first decided “eff it, let me just hit publish so I can move on with my life” a few days ago! I actually got writer’s block when I was writing out the second section about subjective interviews / interviewers, so I’m grateful to everyone for commenting with additional thoughts that helped add color to this topic. :) Thanks for reading!

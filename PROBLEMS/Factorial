@@ -1,0 +1,26 @@
+#2 FACTORIAL
+
+function factorial(n) {
+  let num = 1;
+  for (let i = n; i > 0; i--) {
+    num = num * i;
+  }
+
+  return num;
+}
+
+
+->  O(n)
+
+
+// factorial of a number RECURSION
+function factorial(n) {
+  if (n === 1) {
+    return 1;
+  }
+
+  return n * factorial(n - 1);
+}
+
+
+-> O(n)

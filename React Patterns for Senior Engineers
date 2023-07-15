@@ -1,0 +1,58 @@
+React Patterns for Senior Engineers
+https://asimzaidi.medium.com/react-patterns-for-senior-engineers-ee073abff885
+
+
+React is the go-to JavaScript library for building user interfaces, and senior engineers know that mastering its intricacies takes time and experience. While React has a low barrier to entry, building scalable, maintainable, and performant applications with it requires a deep understanding of React patterns.
+
+In this article, we’ll dive into six essential React patterns that every senior engineer should know. Whether you’re looking to optimize performance with memoization, compose components with the compound components pattern, or share data between components with context, these patterns will help you build high-quality applications that meet your business needs.
+
+By incorporating these patterns into your React projects, you’ll gain a deeper understanding of the library and become a more effective software engineer. So let’s jump in and explore the React patterns that every senior engineer should be familiar with.
+
+Here are some React patterns that senior engineers should be familiar with:
+
+1. Container and Presentational Components One of the fundamental patterns in React is separating container and presentational components. The container components are responsible for managing the state and logic of the application, while the presentational components are responsible for rendering the UI. By separating the two, it becomes easier to maintain and test the application.
+
+Container components are responsible for fetching and managing data from APIs or other sources. They store the application’s state and pass it down to presentational components as props. They also handle user events and other interactions that affect the application’s state. On the other hand, presentational components are responsible for rendering the UI based on the props they receive from the container components. They should be simple and reusable, with minimal business logic or state.
+
+By separating the two types of components, we can achieve better modularity, reusability, and maintainability. Container components can be reused across multiple pages or features, while presentational components can be reused across multiple container components.
+
+
+
+2. Higher-Order Components Higher-order components (HOCs) are functions that take a component and return a new component with additional functionality. HOCs can be used for tasks such as adding authentication, caching, or routing to a component. They are a powerful tool for abstracting common functionality and reducing code duplication.
+
+For example, we can create an HOC that adds a loading spinner to a component while it fetches data from an API. The HOC would take the original component and return a new component that wraps it with a loading spinner. This way, we can reuse the loading spinner logic across multiple components without having to repeat the same code.
+
+
+
+3. Render Props Render props are a technique for sharing code between components. Instead of passing down props, a component provides a function that renders the UI. The child component can then call this function and pass the necessary props. Render props are useful for sharing behavior between components that don’t share a common parent.
+
+For example, we can create a component that wraps a form input and provides a function to validate the input. The child component can call this function and pass the input value, and the parent component would return a boolean indicating whether the input is valid or not. This way, we can reuse the validation logic across multiple form inputs without having to repeat the same code.
+
+
+
+
+4. Compound Components Compound components are a pattern for composing components together to form a more complex UI. Instead of exposing all of the implementation details of a component, the parent component exposes a set of child components that work together to form a cohesive UI. This pattern allows for greater flexibility and extensibility in the application.
+
+For example, we can create a component that wraps a modal dialog and provides child components for the header, body, and footer. Each child component would have its own set of props and can be customized independently. This way, we can reuse the modal dialog logic across multiple parts of the application and have more control over its appearance and behavior.
+
+
+
+
+5. Context Context is a feature in React that allows data to be passed down the component tree without having to pass props manually at every level. Context is useful for sharing global data, such as a theme or a user’s authentication state, between components. While context should be used sparingly, it can be a powerful tool when used correctly.
+
+For example, we can create a context for the user’s authentication state and provide it to all components that need to access it. Instead of passing the user’s authentication state as a prop down the component tree, we can simply access it through the context API.
+
+It’s important to note that context should be used sparingly, as it can make it harder to reason about where data is coming from and can lead to coupling between components. However, when used correctly, it can be a powerful tool for sharing data across multiple components in a clean and efficient way.
+
+
+
+6. Memoization Memoization is a technique for optimizing expensive calculations or rendering operations. By caching the result of a function, React can avoid unnecessary re-renders and improve performance. The useMemo and useCallback hooks are useful for implementing memoization in React.
+
+For example, we can create a component that fetches data from an API and renders a list of items. If the data doesn’t change frequently, we can use the useMemo hook to cache the result of the data fetching function and avoid unnecessary re-fetching when the component re-renders.
+
+Similarly, we can use the useCallback hook to memoize event handler functions that are passed down to child components. This way, we can avoid re-creating the event handler function on every render and improve performance.
+
+
+
+
+In conclusion, these React patterns are just a few of the techniques that senior engineers should be familiar with. By understanding these patterns and incorporating them into their applications, senior engineers can build maintainable, scalable, and performant applications with React. Separating container and presentational components, using higher-order components and render props, leveraging compound components, using context sparingly, and implementing memoization are all important tools in a senior engineer’s toolkit when building React applications.

@@ -1,0 +1,35 @@
+#1 Fibonacci Sequence
+
+- what do we know,
+---that the first two elements will always be 0 and 1
+---first element we need to add value is the third element, or index of 2
+
+
+function fibonacci(num){
+
+  let fib = [0,1];
+  for (let i = 2; i < num; i++){
+    fib[i] = fib[i - 1] + fib[i - 2]
+  }
+  
+  return fib;
+}
+
+
+
+->  O(n)
+
+
+// recursive fibonacci
+function fib(n) {
+  if (n < 2) {
+    return n;
+  }
+  return fib(n - 1) + fib(n - 2);
+}
+
+
+-> O(2^n)
+
+
+

@@ -1,0 +1,157 @@
+Fundamentals of Algorithms - Codevolution - April 6, 2023
+
+- set of well defined instructions to solve a particular problem
+
+ex. recipe instructions
+
+
+how are algorithms measured?
+
+time complexity - amount of time
+space complexity - amount of memory needed
+
+
+
+how to represent complexity?
+
+Asymtptotic notations - mathematical tools to represnet time and space complexity
+
+1. Big O notation - worst case complexity
+
+2. Omega Notation - best case complexity
+
+3. Theta Notation - average case complexity
+
+
+
+
+==
+Big O Notation - describes complexity using algebraic terms
+
+- expressed in terms of the input
+- focuses on the bigger picture without getting caught up in the minute details
+
+
+TIME COMPLEXITY
+
+O(n) - Linear
+
+O(1) - Constant - no matter how much input, steps taken remain the same
+
+
+O(n squared) - Quadratic (when there is nested loops)
+
+O(n cubed) - Cubic (when there is 3 nested loops)
+
+
+O(logn) - Logarithmic - input size reduces by half every iteration (binary search)
+
+
+
+SPACE COMPLEXITY
+
+O(1) - Constant - no extra space needed
+O(n) - Linear - input grows, memory needed grows
+O(logn) - Logarithmic - memory needed grows but not same as input size
+
+
+
+
+
+==
+Big O time complexity - 
+
+=Objects=
+ 
+Insert -  O(1) 
+Remove -  O(1)
+Access -  O(1)
+
+Search - O(n)
+
+
+common methods:
+
+Object.keys() -  O(n)
+Object.values() -  O(n)
+
+
+
+=Arrays=
+Insert and Remove at end of array - O(1)   
+
+Insert and Remove at beginning - O(n) because indeces of each item should be updated
+
+
+Access - O(1) array[2]
+
+Search - O(n)
+
+
+common methods:
+push / pop - O(1)
+
+shift / unshift / concat / slice / splice - O(n)
+
+forEach / map / filter / reduce - O(n)
+
+
+
+Big O GUIDE
+
+O(1) - Calculation not depenedent on input size
+
+O(n) - LOOP
+
+O(n^2) - nested loop
+
+O(logn) - input size reduced by half
+
+
+
+==
+RECURSION
+
+- a technique where solution depends on solutions to smaller instances of the same problem
+- a function calls itself
+
+-- needs a base case to terminate the recursion
+
+
+
+==
+Math Algorithms
+-fibonacci
+-factorial
+-prime number
+-power of two
+
+
+==
+Search Algorigthms
+-linear search
+-binary search -> only works for sorted arrays
+
+
+
+==
+Sorting Algorithms
+- bubble sort
+- insertion sort
+- quick sort
+- merge sort
+
+
+
+
+
+
+
+
+
+
+
+misc:
+review - power of two BITWISE
+review - recursive fibonacci
+review - insertion sort!!!! -hirap grabe
